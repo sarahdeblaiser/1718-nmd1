@@ -1,0 +1,150 @@
+.menu > ul{
+    list-style-type:none;
+    display: inline;
+    padding: 10px;
+}
+
+
+a.optie:hover {
+    background-color: #F5C9C9;
+    color:white;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #DBEAEE;
+    width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/3-stripe.jpg") ;
+    background-repeat: repeat-x;
+    
+}
+
+
+a.optie{
+    display:block;
+    padding:18.5px;
+    text-decoration:none;
+    color:#FDFDFD;
+    float:left;
+    text-transform: uppercase;
+    
+}
+
+a.box  {
+    margin-right:800px;
+}
+
+
+h1{
+    width:400px;
+    margin:10px auto 25px auto;
+    color: #FFFFFF;
+    text-transform: uppercase;
+     
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 0 0 3px #69B2D6;
+}
+
+.menu {
+    margin-left:200px;
+    margin-right: 200px;
+    background-color: F1B9B9;
+    padding: 15px;
+    margin:15px;
+}
+
+
+    
+img.align-left {
+
+    
+    float: right;
+    padding-left: 20px;
+    margin: 0px px 0px 0px;
+    width:300px ;
+    height:auto;
+    
+}
+img.medium {
+    width:300px;
+    height:auto;
+}
+.gegevens{
+    background:rgba(128, 198, 255, 0.21);
+    margin-right: 500px;
+    padding: 30px;
+    border:solid 3px rgb(255, 255, 255)
+}
+
+.Wie ben ik {
+    margin-bottom:500px;
+    
+}
+
+.beschrijving {
+    text-align: right;
+
+
+}
+.kader{
+    background:rgba(128, 198, 255, 0.21);
+    padding: 30px;
+    border:solid 3px rgb(255, 255, 255);
+    margin-left:100px;
+}
+.interesse{
+    background:rgba(128, 198, 255, 0.21);
+    padding: 30px;
+    border:solid 3px rgb(255, 255, 255);
+    margin-right:210px;
+    
+}
+.toekomstplannen{
+    background:rgba(128, 198, 255, 0.21);
+    padding: 30px;
+    margin-left: 200px;
+    border:solid 3px rgb(255, 255, 255)
+}
+.Portfolio-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Portfolio-list .Portfolio {
+    position:relative;
+    border:solid 3px rgb(255, 255, 255);
+    margin-bottom:20px;
+    background-color: #FFFFFF;
+}
+
+.Portfolio-list .Portfolio > img {
+   
+ display: flex;
+ width:400px;
+    
+    
+   
+   
+}
+.Portfolio-list .Portfolio > h3 {
+    position: absolute;
+    left: 0px; 
+    bottom: 0px;
+    margin: 0;
+    background-color: rgba(252, 252, 252, 0.56);
+    color: #050505;
+    padding: 10px;
+    width: 80%;
+}
+
+
+
+
+
